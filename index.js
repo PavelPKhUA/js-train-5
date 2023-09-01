@@ -172,7 +172,6 @@ function swapMinMax(array) {
   // другий варіант (більш правильний)
   //[array[minIndex], array[maxIndex]] = [array[maxIndex], array[minIndex]];
   // return array
-  //yt ljlfdcz
 }
 
 console.log(
