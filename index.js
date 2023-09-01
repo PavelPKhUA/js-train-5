@@ -162,10 +162,17 @@ function swapMinMax(array) {
       minIndex = i
     }
   }
+  // перший варіант
   const [...newArray] = array // Застосовуємо деструктуризацію масиву для обміну місцями мінімального та максимального значення в масиві.
   newArray[minIndex] = max
   newArray[maxIndex] = min
+
   return newArray // Функція повертає масив, в якому мінімальне та максимальне значення обміняні місцями.
+
+  // другий варіант (більш правильний)
+  //[array[minIndex], array[maxIndex]] = [array[maxIndex], array[minIndex]];
+  // return array
+  //yt ljlfdcz
 }
 
 console.log(
